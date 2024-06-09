@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
 }
 
 .game-board {
@@ -19,14 +20,14 @@
     bottom: 0;
     width: 80px;
     animation: pipe-animation 1.5s infinite linear;
-   
+
 }
 
 .mario {
     width: 150px;
     position: absolute;
     bottom: 0px;
-    
+
 }
 
 .jump {
@@ -39,9 +40,12 @@
     animation: clouds-animation 20s infinite linear;
 }
 
-.infor {
+.tecla-espaco {
+    margin-top: 30px;
+    text-decoration: underline;
+    color: green;
+    font-size: 40px;
     text-align: center;
-    
 }
 
 @keyframes pipe-animation {
